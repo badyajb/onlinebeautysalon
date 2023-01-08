@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nails">
+    <ImageButton
+        android:id="@+id/idarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nail"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nailid"
+
+   />
+    <ImageButton
+        android:id="@+id/idval2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ector"
+        android:layout_below="@id/nailid"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"/>
+    <ImageButton
+        android:id="@+id/idbk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calvec"
+        android:layout_marginLeft="330dp"
+        android:layout_below="@id/nailid"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="style"
+        android:textColor="@color/purpledark"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_below="@id/nailid"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nailid"
+        android:layout_marginTop="60dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imag6"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imag8"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image7"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:background="@color/mypurpole"
+android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentBottom="true">
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:background="@color/mypurpole"
+    android:src="@drawable/naildark" />
+
+<ImageButton
+    android:id="@+id/idhair2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/mypurpole"
+    android:paddingLeft="100dp"
+    android:src="@drawable/hairnormal" />
+
+<ImageButton
+    android:layout_marginTop="7dp"
+    android:id="@+id/makeup2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/mypurpole"
+    android:src="@drawable/frm" />
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choice">
+
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" take your appointment now"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/app"
+        android:layout_marginLeft="-19dp"
+        android:layout_marginTop="60dp"
+
+        android:src="@drawable/ic_baseline_calendar_month_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your choice "
+        android:layout_below="@id/app"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/haircut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app"
+        android:layout_marginTop="80dp"
+        android:text="haircut"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageButton
+        android:id="@+id/edithair"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app"
+       android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/ic_baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/imghair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hr3"
+        android:layout_below="@id/haircut"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/nail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imghair"
+        android:layout_marginTop="40dp"
+        android:text="nails"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/editnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/haircut"
+        android:layout_marginTop="189dp"
+        android:background="@color/white"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/nailll"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nail"
+        android:layout_below="@id/imghair"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/mk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="makeup"
+        android:textSize="20dp"
+        android:layout_below="@id/nailll"
+        android:layout_marginLeft="20dp"/>
+    <ImageButton
+        android:background="@color/white"
+        android:id="@+id/editmake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_below="@id/nailll"
+        android:layout_marginLeft="96dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/nailll"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/apturemk"/>
+    <ImageButton
+        android:id="@+id/vdid"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/valider"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

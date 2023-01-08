@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895150811883",
+    "project_id": "hairstyle-64bef",
+    "storage_bucket": "hairstyle-64bef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895150811883:android:e51981b31cdc06b3c8ecae",
+        "android_client_info": {
+          "package_name": "com.example.hairstyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895150811883-fpako1eu4jk7lpgj4rg91p7r30iud2ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr6wI6-vO9lDcfiBRprzMLdYGndHMU0so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895150811883-fpako1eu4jk7lpgj4rg91p7r30iud2ql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

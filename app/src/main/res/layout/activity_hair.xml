@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hair">
+
+    <ImageButton
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+     android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/choix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/legerpurple"
+        android:src="@drawable/hair"
+       android:layout_below="@id/arrow"
+        android:layout_centerHorizontal="true"
+       />
+    <ImageButton
+        android:id="@+id/idbk"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calvec"
+        android:layout_below="@id/choix"
+        android:layout_marginLeft="280dp"
+        />
+    <ImageButton
+        android:background="@color/white"
+        android:id="@+id/idval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ector"
+        android:layout_below="@id/choix"
+        android:layout_marginLeft="330dp"
+        />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="other cut :"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_below="@id/choix"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="20dp"
+        />
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choix"
+        android:id="@+id/lh1"
+        android:layout_marginTop="60dp">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+      >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:src="@drawable/hr1"
+            android:background="@color/white"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="30dp"
+            android:src="@drawable/hr2" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hr3"
+            android:paddingLeft="30dp"
+            android:background="@color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mypurpole"
+        android:orientation="horizontal"
+        android:layout_below="@id/lh1"
+
+       android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:id="@+id/idnail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/mypurpole"
+            android:src="@drawable/frame" />
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/mypurpole"
+            android:paddingLeft="100dp"
+            android:src="@drawable/darkhr" />
+
+        <ImageButton
+            android:id="@+id/idmakeup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/mypurpole"
+            android:src="@drawable/frm" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
